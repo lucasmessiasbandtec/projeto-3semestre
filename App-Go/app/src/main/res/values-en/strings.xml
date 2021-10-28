@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App-Go</string>
+    <string name="txt_paradas">The places where you will stop:</string>
+    <string name="txt_login1">Welcome</string>
+    <string name="txt_login2">Back</string>
+    <string name="hint_email">Your email</string>
+    <string name="hint_senha">Your password</string>
+    <string name="esqueci_senha">I forgot my password</string>
+    <string name="bt_acessar">Access</string>
+    <string name="bt_criar_conta">Create an account</string>
+    <string name="bt_criar">Create an account</string>
+    <string name="bt_logar">Access my account</string>
+    <string name="bt_publicar">Publish</string>
+    <string name="hint_titulo">Write a title for your post</string>
+    <string name="hint_post">Write the body of your post</string>
+    <string name="bt_add_viagem">Add trip</string>
+    <string name="txt_cria">Create your</string>
+    <string name="txt_conta">account</string>
+    <string name="hint_nome">your name</string>
+    <string name="hint_filtro">What do you want to find along the way?</string>
+    <string name="cb_hospital">Hospitals</string>
+    <string name="cb_bar">Pub\'s</string>
+    <string name="cb_hotel">Hotels</string>
+    <string name="cb_parque">Parks</string>
+    <string name="sair">Loggout</string>
+    <string name="suas_ultimas_postagens">Your last posts</string>
+    <string name="ver_o_mapa">View Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="ver_o_mapa_home">View Map</string>
+    <string name="btn_partida">Start</string>
+    <string name="btn_chegada">End</string>
+    <string name="btn_filtros">Filters</string>
+    <string name="btn_ir">Go!</string>
+    <string name="btn_iti_ver_o_mapa">View Map</string>
+    <string name="veja_a_viagem_postada">View trip posted by</string>
+    <string name="voce">you</string>
+</resources>

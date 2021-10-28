@@ -1,0 +1,26 @@
+.loading
+  width: fit-content
+  padding: 0 10px
+  background-color: #7295c9
+  display: flex
+  justify-content: center
+  align-items: center
+  animation: shrink 2s linear
+  animation-iteration-count: 1
+  img 
+    height: 30px
+    animation: rotate 1.5s linear infinite
+
+@keyframes rotate
+  0%
+    transform: rotate(0deg)
+  100%
+    transform: rotate(360deg)
+
+@keyframes shrink
+  0%
+    width: 200px
+  100%    
+    width: fit-content
+
+    

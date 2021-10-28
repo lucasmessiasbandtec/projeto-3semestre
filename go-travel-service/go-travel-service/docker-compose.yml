@@ -1,0 +1,26 @@
+version: '3'
+volumes:
+  data:
+services:
+#  nginx:
+#    container_name: some-nginx
+#    image: nginx:latest
+#    restart: always
+#    ports:
+#      - 80:80
+#    volumes:
+#      - ./nginx/conf.d:/etc/nginx/conf.d
+#  docker-app-1:
+#    build: .
+#    depends_on:
+#      - mongodb
+#  docker-app-2:
+#    build: .
+#    depends_on:
+#      - mongodb
+  mongodb:
+    image: mongo:latest
+    ports:
+      - 27017:27017
+    volumes:
+      - data:/data/db

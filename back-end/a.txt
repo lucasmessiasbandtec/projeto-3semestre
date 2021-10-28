@@ -1,0 +1,4 @@
+Go Travel LTDA - Arquivo de importação de viagens
+5fc47a18c5cf2b1cbfe39n04 -3.245 -38.123 -3.145 -38.123 Rua Teste1 - Rua Teste2             5fc556949197b03c48816a9f
+5fc57a18c5cf3b1cdae39b56 -3.654 -20.983 -4.120 -32.124 Rua Cerro Cora - Rua Moll           5fc556949197b03c48816a9f
+Fim do documento de importação

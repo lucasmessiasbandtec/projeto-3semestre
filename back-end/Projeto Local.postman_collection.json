@@ -1,0 +1,525 @@
+{
+	"info": {
+		"_postman_id": "9ade270c-10f5-4792-9f6d-0c2d01f83c27",
+		"name": "Projeto Local",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Cadastrar um usuario",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Kaique\",\r\n    \"email\": \"kaique@gmail.com\",\r\n    \"password\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "79cff3a8-27a9-4ed6-a050-7f9985c90e58",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"kaique@gmail.com\",\r\n    \"password\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Foto",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{auth}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/F:/b5ff478b-5074-4140-8719-4b6e51dc6111.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/user/photos/add/5fb3229cc834da117a99369f",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"user",
+								"photos",
+								"add",
+								"5fb3229cc834da117a99369f"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pegar a foto",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{auth}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/user/photos/5fb3229cc834da117a99369f",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"user",
+								"photos",
+								"5fb3229cc834da117a99369f"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Trip",
+			"item": [
+				{
+					"name": "Criar Viagem",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{auth}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"latMatch\": \"Rua Horacio de Carvalho\",\r\n    \"lngMatch\": \"a\",\r\n    \"latDestiny\": \"b\",\r\n    \"lngDestiny\": \"c\",\r\n    \"destiny\": \"d\",\r\n    \"idUser\": \"5f9ede49fd82af74739d6008\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/trip/5f9ede49fd82af74739d6008",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"trip",
+								"5f9ede49fd82af74739d6008"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar todas viagens por user id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{auth}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/trip/5f9ede49fd82af74739d6008",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"trip",
+								"5f9ede49fd82af74739d6008"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Deletar viagem por tripId",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{auth}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/trip/5f9edf4afd82af74739d600b",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"trip",
+								"5f9edf4afd82af74739d600b"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Desfazer inserção no banco",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI1ZmM4MWI2ZTkyYTdhODUzMjQxMDhlYzUiLCJzdWIiOiJrYWlxdWVAZ21haWwuY29tIiwiZXhwIjoxNjE4MTU3NDA2fQ.xq-DwH8sRHmsahrLhuhVBQCNQxN4a_yABoh42tD0r36weT2bynWh5C0YF19IUO9hg-HSIkv922R9SR2p_A2EIA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/trip/undo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"trip",
+								"undo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Upload de arquivo de importação de dados",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI1ZmM4MWI2ZTkyYTdhODUzMjQxMDhlYzUiLCJzdWIiOiJrYWlxdWVAZ21haWwuY29tIiwiZXhwIjoxNjE4MTU3NDA2fQ.xq-DwH8sRHmsahrLhuhVBQCNQxN4a_yABoh42tD0r36weT2bynWh5C0YF19IUO9hg-HSIkv922R9SR2p_A2EIA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "arquivo",
+									"type": "file",
+									"src": "/C:/Users/Arthur/Desktop/20201-3adsa-grupo1/a.txt"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/trip/upload",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"trip",
+								"upload"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Filter",
+			"item": [
+				{
+					"name": "Cadastrar filtro de viagem",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{auth}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"localName\": \"mcdonalds\",\r\n    \"latitude\": \"-800\",\r\n    \"longitude\": \"900\",\r\n    \"tripId\": \"5f9edf9dfd82af74739d600c\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/filter/5f9edf9dfd82af74739d600c",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"filter",
+								"5f9edf9dfd82af74739d600c"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Filter",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{auth}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/filter/5f9edfe494e33f1e18caee5c",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"filter",
+								"5f9edfe494e33f1e18caee5c"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Post",
+			"item": [
+				{
+					"name": "Criar um post",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI1ZmIzMjI5Y2M4MzRkYTExN2E5OTM2OWYiLCJzdWIiOiJrYWlxdWVAZ21haWwuY29tIiwiZXhwIjoxNjE3NjkyNDQ5fQ.hjfzmOn8nSlIzG6q7MsWrvFf5HLGxFaYKad45TfUMquB_XYeQIt2AruG1dn4izcyPdoy4QssxTBBrQb2JJmZfw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Viagem Pro Mato Grosso\",\r\n    \"description\": \"BLABLA\",\r\n    \"userId\": \"5fb3229cc834da117a99369f\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/post/5fc272d5cdd9161bca9fee25",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"post",
+								"5fc272d5cdd9161bca9fee25"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "procura todos os posts",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{auth}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/publication",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"publication"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Send Like",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{auth}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": \"5f9ede49fd82af74739d6008\",\r\n    \"postId\": \"5f9ee06094e33f1e18caee5d\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/publication/like",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"publication",
+								"like"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

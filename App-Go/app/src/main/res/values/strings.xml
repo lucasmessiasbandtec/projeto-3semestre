@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">App-Go</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="txt_paradas">Os locais onde você vai parar:</string>
+    <string name="txt_login1">Bem-vindo</string>
+    <string name="txt_login2">de volta</string>
+    <string name="hint_email">Seu email</string>
+    <string name="hint_senha">Sua senha</string>
+    <string name="esqueci_senha">Esqueci minha senha</string>
+    <string name="bt_acessar">Acessar</string>
+    <string name="bt_criar_conta">Criar uma conta</string>
+    <string name="bt_criar">Criar conta</string>
+    <string name="bt_logar">Acessar minha conta</string>
+    <string name="bt_publicar">Publicar</string>
+    <string name="hint_post">Escreva o corpo do seu post</string>
+    <string name="bt_add_viagem">Adicionar viagem</string>
+    <string name="txt_cria">Crie sua</string>
+    <string name="txt_conta">conta</string>
+    <string name="hint_nome">Seu nome</string>
+    <string name="hint_filtro">O que você deseja encontrar pelo caminho?</string>
+    <string name="cb_hospital">Hospitais</string>
+    <string name="cb_bar">Bares</string>
+    <string name="cb_hotel">Hotéis</string>
+    <string name="cb_parque">Parques</string>
+    <string name="hint_titulo">Escreva um título para seu post</string>
+    <string name="sair">Sair</string>
+    <string name="suas_ultimas_postagens">Suas últimas postagens</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="ver_o_mapa">Ver o mapa</string>
+    <string name="ver_o_mapa_home">Ver o mapa</string>
+    <string name="btn_partida">Partida</string>
+    <string name="btn_chegada">Chegada</string>
+    <string name="btn_filtros">Filtros</string>
+    <string name="btn_ir">Ir</string>
+    <string name="btn_iti_ver_o_mapa">Ver o mapa</string>
+    <string name="veja_a_viagem_postada">Veja a viagem postada por</string>
+    <string name="voce">você</string>
+</resources>

@@ -1,0 +1,98 @@
+Exportação de dados via arquivo de texto: Descrição das viagens do usuário
+ID do usuário: 5fc556949197b03c48816a9f
+
+
+ID VIAGEM                 LAT PARTIDA               LNG PARTIDA               LAT DESTINO               LNG DESTINO               
+
+5fd69090db7bb55eb06a5f68  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd690c2db7bb55eb06a5f70  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd69125db7bb55eb06a5f75  -23.5116897               -46.393353                -23.5378738               -46.61767870000001        
+5fd691dfdb7bb55eb06a5f7b  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd6923fdb7bb55eb06a5f7c  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd69268db7bb55eb06a5f7d  -23.5849608               -46.5842744               -23.5539749               -46.655794                
+FIM DO DOCUMENTO          
+
+Exportação de dados via arquivo de texto: Descrição das viagens do usuário
+ID do usuário: 5fc556949197b03c48816a9f
+
+
+ID VIAGEM                 LAT PARTIDA               LNG PARTIDA               LAT DESTINO               LNG DESTINO               
+
+5fd69090db7bb55eb06a5f68  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd690c2db7bb55eb06a5f70  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd69125db7bb55eb06a5f75  -23.5116897               -46.393353                -23.5378738               -46.61767870000001        
+5fd691dfdb7bb55eb06a5f7b  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd6923fdb7bb55eb06a5f7c  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd69268db7bb55eb06a5f7d  -23.5849608               -46.5842744               -23.5539749               -46.655794                
+FIM DO DOCUMENTO          
+
+Exportação de dados via arquivo de texto: Descrição das viagens do usuário
+ID do usuário: 5fc556949197b03c48816a9f
+
+
+ID VIAGEM                 LAT PARTIDA               LNG PARTIDA               LAT DESTINO               LNG DESTINO               
+
+5fd69090db7bb55eb06a5f68  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd690c2db7bb55eb06a5f70  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd69125db7bb55eb06a5f75  -23.5116897               -46.393353                -23.5378738               -46.61767870000001        
+5fd691dfdb7bb55eb06a5f7b  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd6923fdb7bb55eb06a5f7c  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd69268db7bb55eb06a5f7d  -23.5849608               -46.5842744               -23.5539749               -46.655794                
+FIM DO DOCUMENTO          
+
+Exportação de dados via arquivo de texto: Descrição das viagens do usuário
+ID do usuário: 5fc556949197b03c48816a9f
+
+
+ID VIAGEM                 LAT PARTIDA               LNG PARTIDA               LAT DESTINO               LNG DESTINO               
+
+5fd69090db7bb55eb06a5f68  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd690c2db7bb55eb06a5f70  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd69125db7bb55eb06a5f75  -23.5116897               -46.393353                -23.5378738               -46.61767870000001        
+5fd691dfdb7bb55eb06a5f7b  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd6923fdb7bb55eb06a5f7c  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd69268db7bb55eb06a5f7d  -23.5849608               -46.5842744               -23.5539749               -46.655794                
+FIM DO DOCUMENTO          
+
+Exportação de dados via arquivo de texto: Descrição das viagens do usuário
+ID do usuário: 5fc556949197b03c48816a9f
+
+
+ID VIAGEM                 LAT PARTIDA               LNG PARTIDA               LAT DESTINO               LNG DESTINO               
+
+5fd69090db7bb55eb06a5f68  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd690c2db7bb55eb06a5f70  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd69125db7bb55eb06a5f75  -23.5116897               -46.393353                -23.5378738               -46.61767870000001        
+5fd691dfdb7bb55eb06a5f7b  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd6923fdb7bb55eb06a5f7c  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd69268db7bb55eb06a5f7d  -23.5849608               -46.5842744               -23.5539749               -46.655794                
+FIM DO DOCUMENTO          
+
+Exportação de dados via arquivo de texto: Descrição das viagens do usuário
+ID do usuário: 5fc556949197b03c48816a9f
+
+
+ID VIAGEM                 LAT PARTIDA               LNG PARTIDA               LAT DESTINO               LNG DESTINO               
+
+5fd69090db7bb55eb06a5f68  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd690c2db7bb55eb06a5f70  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd69125db7bb55eb06a5f75  -23.5116897               -46.393353                -23.5378738               -46.61767870000001        
+5fd691dfdb7bb55eb06a5f7b  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd6923fdb7bb55eb06a5f7c  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd69268db7bb55eb06a5f7d  -23.5849608               -46.5842744               -23.5539749               -46.655794                
+FIM DO DOCUMENTO          
+
+Exportação de dados via arquivo de texto: Descrição das viagens do usuário
+ID do usuário: 5fc556949197b03c48816a9f
+
+
+ID VIAGEM                 LAT PARTIDA               LNG PARTIDA               LAT DESTINO               LNG DESTINO               
+
+5fd69090db7bb55eb06a5f68  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd690c2db7bb55eb06a5f70  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd69125db7bb55eb06a5f75  -23.5116897               -46.393353                -23.5378738               -46.61767870000001        
+5fd691dfdb7bb55eb06a5f7b  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd6923fdb7bb55eb06a5f7c  -23.5539749               -46.655794                -23.5378738               -46.61767870000001        
+5fd69268db7bb55eb06a5f7d  -23.5849608               -46.5842744               -23.5539749               -46.655794                
+FIM DO DOCUMENTO          
+
